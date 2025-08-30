@@ -3,7 +3,7 @@ from fastvideo import VideoGenerator
 def main():
     # Create a video generator with a pre-trained model
     generator = VideoGenerator.from_pretrained(
-        "/workspace/models/Wan",
+        "/workspace/models/Wan/Wan2_2_T2V_14B_Diffusers",
         num_gpus=8,  # Adjust based on your hardware
     )
 
