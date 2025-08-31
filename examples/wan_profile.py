@@ -15,7 +15,8 @@ def main():
         prompt,
         return_frames=True,  # Also return frames from this call (defaults to False)
         output_path="/workspace/outputs",  # Controls where videos are saved
-        save_video=True
+        save_video=True,
+        output_video_name="simple.mp4"
     )
 
 if __name__ == '__main__':
